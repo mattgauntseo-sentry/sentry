@@ -5,6 +5,7 @@ import pytest
 
 pytest_plugins = ["sentry.utils.pytest"]
 
+# TESTING LABELS
 
 # XXX: The below code is vendored code from https://github.com/utgwkk/pytest-github-actions-annotate-failures
 # so that we can add support for pytest_rerunfailures
