@@ -49,7 +49,7 @@ backend_build_changes: &backend_build_changes
 backend: &backend
   - *backend_build_changes
   - *backend_dependencies
-  - '!(test)/**/*.py'
+  - '!(tests)/**/*.py'
   - '**/*.sh'
   - '**/*.pysnap'
   - 'src/sentry/!(static)/**'
