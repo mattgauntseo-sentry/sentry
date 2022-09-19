@@ -2,6 +2,8 @@ import {useRef} from 'react';
 
 import {render, screen} from 'sentry-test/reactTestingLibrary';
 
+// Example .spec.tsx change
+
 describe('rerender', () => {
   // Taken from https://testing-library.com/docs/example-update-props/
   let idCounter = 1;
